@@ -1,6 +1,6 @@
 # Menu_Pet-pm4
 Plugin mua pet dành cho member
-#Commad:
+Commad:
  /thucung: shoppet
 #plugin hỗ trợ:
  - coinapi
