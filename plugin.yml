@@ -1,0 +1,35 @@
+name: thucung
+
+api: 4.0.0
+
+main: thucung\Main
+
+version: 1.0
+
+author: NgMinhPhap
+
+edit: Update pm4 by_Ki
+
+depend: 
+
+- FormAPI
+
+- EconomyAPI
+
+- CoinAPI
+
+commands:
+
+  thucung:
+
+   description: Mở giao diện thú cưng
+
+   permission: thucung.cmd
+
+
+
+permissions:
+
+  thucung.cmd:
+
+    default: true
