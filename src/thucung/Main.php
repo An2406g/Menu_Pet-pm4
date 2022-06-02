@@ -40,11 +40,11 @@ Class Main extends PluginBase implements Listener{
         $this->getServer()->getLogger()->info("§cĐã tắt giao diện pet, by ngminhphap aka rbplugin");
         }
     
-    public  function  onCommand ( CommandSender  $ sender , Command  $cmd , string  $label , array  $args ): bool {
-        if ($sender instanceof Player and $cmd -> getName () == "thucung" ) {
-            $ this -> giaodien ( $sender );
+    public  function  onCommand ( CommandSender  $sender ,Command $cmd ,string $label ,array $args):bool{
+       if($sender instanceof Player and $cmd->getName()=="thucung"){
+            $ this->giaodien($sender);
             }
-       return  true ;
+       return true;
        }
     
     public function giaodien(Player $sender){
