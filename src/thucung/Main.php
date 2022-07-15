@@ -42,7 +42,7 @@ Class Main extends PluginBase implements Listener{
     
     public  function  onCommand (CommandSender $sender ,Command $cmd ,string $label ,array $args):bool{
        if($sender instanceof Player and $cmd -> getName()=="thucung"){
-            $ this->giaodien($sender);
+            $this->giaodien($sender);
             }
        return true;
        }
